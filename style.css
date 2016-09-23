@@ -1,0 +1,53 @@
+h1{
+	color: skyblue;
+}
+			
+p{
+	color: coral;
+			}
+			body{
+			margin: 0;
+			}
+#navbar  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	overflow: hidden;
+	width: 200px;
+    /*border: 1px solid blue;*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+   
+}
+.navitem {
+	text-align: center;
+	border-bottom: 1px ;
+	float: left;
+}
+	
+	.navitem:last-child{
+	border-bottom none;
+}
+.navitem a {
+	display: block;
+	color: orange;
+	text-decoration: none;
+	padding: 8px 16px;
+}
+
+.navitem a.active{
+	background-color: palegreen;
+	color: royalblue;
+}
+
+.navitem a:hover:not(.active) {
+	background-color: white;
+	color: teal;
+}
+#main {
+margin-top: 30px;
+padding: 20px;
+
+}
